@@ -1,0 +1,142 @@
+/* CSS style for body */
+body {
+    background-color: rgba(35, 2, 2, 0.795);
+    color:rgb(190, 190, 190);
+}
+
+
+.buttons{
+    letter-spacing: 3px;
+    width: 100%
+}
+
+/* CSS style for the top menu buttons */
+#Home, #PAGE1, #PAGE2, #About, #sw, #ark, #col, #fon, #fon2, #fon3, #col2, #col3{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+    cursor: pointer;
+}
+
+/* CSS style for bear image in the Brown bear/Brunbjörn page */
+#img-bear{
+    border-radius: 0px;
+    position: relative;
+    left: 10px;
+    width: 250px;
+    height: 170px;
+}
+
+
+
+#com, #bearT, #mexicoT, .sup, #rateinfo, #blo{
+    font-family: verdana;
+}
+
+/*CSS stylefor only the text "Source" in Brown bear/Mexico pages at bottom of page before the link 
+*/
+#com{
+    font-size: 12px;
+}
+
+/*CSS style for all the links at the bottom of Brown bear/Mexico pages after the "Source" paragraph
+*/
+#linkB{
+    color: rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 12px;
+}
+
+/*Respond pages*/
+#tackBody, #tackBody2{
+    background-color: rgb(17, 50, 17);
+    color: white;
+    font-family: verdana;
+}
+
+/* CSS styles for "Go back"  buttons.  */
+#goback1, #goback2, #goback3{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    cursor:pointer;
+}
+
+/*CSS style for the "Rate this information", also the text above them. In Brown bear & Mexico
+*/
+#Veryg, #G, #B, #Veryb, #bearT #mexicoT{
+    font-family: verdana;
+    font-size: 12px;
+}
+
+/*For the tacos picture in the page about Mexico-index2.html*/
+#tacos{
+    height: 130px;
+    width: 140px;
+}
+
+
+#boo{
+    font-family: Arial;
+}
+
+/*CSS styles for the Submit buttons*/
+#yo{
+    font-family: Arial;
+    background-color: rgb(0, 0, 0);
+    font-size: 10px;
+    color: white;
+    border-radius: 3px;
+    border-color: grey;
+    border-width: 3.2px;
+    cursor:pointer;
+}
+
+/*Media CSS */
+@media screen and (max-width:500px)
+{
+    body{
+        color: white;
+        background-color: rgba(8, 8, 8, 0.785);
+    }
+    .buttons{
+        letter-spacing: 7px;
+    }
+    #linkB{
+        color: white;
+    }
+}
+
+@media all and (orientation:landscape)
+{
+    body{
+        color: black;
+        background-color:rgb(174, 230, 228);
+    }
+    #linkB{
+        color: black;
+    }
+}
+
+/*Animation*/
+body {
+    position: relative;
+}
+.sup{
+    position: relative;
+    animation-name: myAnimation;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+@keyframes myAnimation {
+    0%{color:red;left:0px;}
+    25%{color:yellow;left: 5px;}
+    50%{color:purple;left: 10px;}
+    75%{color:green;left: 15px;}
+    100%{color:blue;left: 0px;}
+}

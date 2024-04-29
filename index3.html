@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohamed Abubakar, 08/4/2024">
+    <meta name="description" content="Min webbplats(Page3), the third html page that talks about Mexico, small info about the country.">
+    <link rel="stylesheet" href="index.css">
+    <title>About Mexico</title>
+</head>
+<body>
+<!--Navigations/Menu buttons-->
+<nav>
+    <div class="buttons">
+        <button onclick="window.location='index.html';" id="Home">Home</button>
+        <button onclick="window.location='index2.html';" id="PAGE1">Brown bear</button>
+        <button onclick="window.location='index3.html';" id="PAGE2">Mexico</button>
+        <button onclick="window.location='about.html';" id="About">About</button>
+        <button id="col3">Change color</button>
+        <button id="fon3">Change font</button>
+    </div> 
+</nav>
+
+<!--article-->
+<article>
+<!--Header-->
+    <header>
+        <h3 id="boo">Mexico</h3>
+    </header>
+
+<!--Mexico pics-->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/188px-Flag_of_Mexico.svg.png" id="flag" alt="Flag_of_Mexico">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/128px-Coat_of_arms_of_Mexico.svg.png" id="Coat" alt="Coat of arms of Mexico">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN8wH6ySClgcINco1a2rVa570C7OO-AcX6T7qquKXLALdMHdnUOoNKYaaYwUW8mI3bfmc&usqp=CAU" id="tacos" alt="Picture of Tacos">
+        <p id="mexicoT">*Mexico is a country located on the southern part of <em>North America</em>.<br>*The country's population is almost <em>130</em> million.<br>*Their official language is <strong>Spanish</strong>.<br>*Mexico's most popular food is <em>tacos.</em></p>
+</article>
+
+<!--Form-->
+    <form action="tack2.html">
+        <p>Rate this information:<p>
+        <input type="radio" id="Verygood" name="Rating" value="Verygood">
+        <label for="Verygood" id="Veryg">Very good</label>
+        <br>
+        <input type="radio" id="Good" name="Rating" value="Good">
+        <label for="Good" id="G">Good</label>
+        <br>
+        <input type="radio" id="Bad" name="Rating" value="Bad">
+        <label for="Bad" id="B">Bad</label>
+        <br>
+        <input type="radio" id="Verybad" name="Rating" value="Verybad">
+        <label for="Verybad" id="Veryb">Very bad</label>
+        <br>
+        <input type="submit" value="Submit" id="yo">
+    </form>
+    <br>
+
+<!--Footer-->
+    <footer>
+        <p id="com">Source:<strong><a href="https://en.wikipedia.org/wiki/Mexico" id="linkB" target="_blank">Wikipedia|Mexico</a></strong></p>
+        <script src="index.js"></script>
+    </footer>
+
+</body>
+</html>

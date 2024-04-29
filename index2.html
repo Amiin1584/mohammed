@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohamed Abubakar, 25/03/2024">
+    <meta name="description" content="My webpage(Page2), a html page that talks a little bit about Brown bear, little info about brown bear.">
+    <link rel="stylesheet" href="index.css">
+    <title>About Brown bear</title>
+</head>
+<body>
+<!--Menu button-->
+<nav>
+    <div class="buttons">
+        <button onclick="window.location='index.html';" id="Home">Home</button>
+        <button onclick="window.location='index2.html';" id="PAGE1">Brown bear</button>
+        <button onclick="window.location='index3.html';" id="PAGE2">Mexico</button>
+        <button onclick="window.location='about.html';" id="About">About</button>
+        <button id="col2">Change color</button>
+        <button id="fon2">Change font</button>
+    </div> 
+</nav>
+
+<!--article-->
+<article>
+<!--Header-->
+    <header>
+        <h3 id="boo">Brown Bears</h3>
+    </header>
+<!--Bear pic-->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/330px-2010-kodiak-bear-1.jpg" id="img-bear" alt="Picture of brown bear">
+        <p id="bearT">*Brown bears are the most common type of bears. <br>*They mostly live in forests and mountains.<br>*They are found in North America, Europe & Asia.<br>*Brown Bears hibernate, feed on other animals such as rodents <br>but aslo feed on berries, roots, fish & etc.</p>
+    </article>
+    <!--Form-->
+    <form action="tack1.html">
+        <p>Rate this information:<p>
+        <input type="radio" id="Verygood" name="Rating" value="Verygood">
+        <label for="Verygood" id="Veryg">Very good</label>
+        <br>
+        <input type="radio" id="Good" name="Rating" value="Good">
+        <label for="Good" id="G">Good</label>
+        <br>
+        <input type="radio" id="Bad" name="Rating" value="Bad">
+        <label for="Bad" id="B">Bad</label>
+        <br>
+        <input type="radio" id="Verybad" name="Rating" value="Verybad">
+        <label for="Verybad" id="Veryb">Very bad</label>
+        <br>
+        <input type="submit" value="Submit" id="yo">
+    </form>
+    <!--Footer-->
+    <footer>
+        <p id="com">Source:<strong><a href="https://www.nationalgeographic.com/animals/mammals/facts/brown-bear" id="linkB" target="_blank">National Geographic</a></strong></p>
+        <script src="index.js"></script>
+    </footer>
+</body>
+</html>
